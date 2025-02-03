@@ -1,0 +1,66 @@
+body{
+    margin:0;
+}
+
+h3{
+    font-family: Verdana, sans-serif;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.headertext{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header{
+    width :100%;
+    background-color: red;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.text{
+    font-size: 20;
+}
+.photo{
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+#photo{
+    height:500px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.square{
+    height:300px;
+    width: 300px;
+    margin:5px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#RStudio{
+    background: url('Elements/r.png') no-repeat center;
+    background-size: contain;
+}
