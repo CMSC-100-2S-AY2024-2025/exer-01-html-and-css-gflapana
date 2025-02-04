@@ -40,7 +40,7 @@ h3{
     border-bottom: 4px solid #ffc8a7;
 }
 
-.linkgroup a{
+.link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +57,11 @@ h3{
     margin-right: 10%;
 }
 
-.linkgroup a:hover{
+.link:hover{
     font-weight: 600;
 }
 
-.linkgroup a:hover:active{
+.link:hover:active{
     background-color: #804712;
 }
 
@@ -193,8 +193,32 @@ h3{
     padding: 3%;
 }
 
+#auto-box{
+    align-items: flex-start;
+}
+
 .auto-text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     text-align: justify;
+    
+}
+
+.footer{
+    display: flex;
+    width:100%;
+    background-color: #ffa756;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+}
+.leftside img{
+    height:5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
